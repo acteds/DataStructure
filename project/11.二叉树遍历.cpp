@@ -19,7 +19,7 @@ void DBT(BTN *&b){//释放内存
     }
 }
 
-int BTH(BTN *b){//二叉数高
+int  BTH(BTN *b){//二叉数高
     if(b==NULL)return 0;
     int l,r;
     l=BTH(b->lchild);r=BTH(b->rchild);
@@ -86,6 +86,7 @@ void prbab(BTN *b){
         printf("%c ",b->data);
         prbab(b->rchild);
     }
+    
 }
 
 void prbba(BTN *b){
