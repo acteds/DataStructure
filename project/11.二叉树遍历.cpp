@@ -96,7 +96,12 @@ void prbba(BTN *b){
         printf("%c ",b->data);
     }
 }
-
+/**
+ * @brief  ²ã´Î±éÀú
+ * @note   
+ * @param  *b: 
+ * @retval None
+ */
 void levelorder(BTN *b){
     BTN *p,*q[100];
     int front=0,rear=1;
