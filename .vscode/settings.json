@@ -13,7 +13,8 @@
         "*.tcc": "c",
         "string_view": "c",
         "assert.h": "c",
-        "float.h": "c"
+        "float.h": "c",
+        "algorithm": "c"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }
