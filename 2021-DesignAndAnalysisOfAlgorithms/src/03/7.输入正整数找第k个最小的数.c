@@ -55,4 +55,5 @@ int recursion(int begin, int end, int k)
             return recursion(i + 1, end, k);
         }
     }
+    return 0;
 }
